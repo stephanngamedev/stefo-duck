@@ -44,12 +44,12 @@ local function init()
 	floor.name = 'floor'
 	physics.addBody( floor, 'static' )
 
-	arrow_left = display.newImage( 'arrow-left.png' )
+	arrow_left = display.newImage( 'images/arrow-left.png' )
 	arrow_left.x = 50
 	arrow_left.y = screen_height - 60
 	arrow_left.alpha = 0.3
 
-	arrow_right = display.newImage( 'arrow-right.png' )
+	arrow_right = display.newImage( 'images/arrow-right.png' )
 	arrow_right.x = screen_width - 50
 	arrow_right.y = screen_height - 60
 	arrow_right.alpha = 0.3
